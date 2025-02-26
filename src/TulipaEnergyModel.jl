@@ -6,6 +6,7 @@ module TulipaEnergyModel
 using CSV: CSV
 using DuckDB: DuckDB, DBInterface
 using TOML: TOML
+using JSON: JSON
 using TulipaIO: TulipaIO
 
 ## Optimization
